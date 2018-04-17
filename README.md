@@ -3,9 +3,11 @@ The Portfolio of INFO7390
 ## Introduction
 
 ## Getting Start
+
+### Prerequisites
 You should install Spotipy, billboard api , and Tensorflow
 
-## Installation
+### Installation
 1、spotipy api
 ```bash
 pip install spotipy
