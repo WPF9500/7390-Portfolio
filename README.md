@@ -31,5 +31,7 @@ you should run getdata.py with the data1.csv to get 100000 songs rank in billboa
 
 ### Use the Spotify API to get Audio Feature
 1.run regetdata.py to get the Artist id, Track id and audio feature of each track, then you will get all data which we have saved in new_data.csv. 
+
 2.run aa_append_artists.py to get each artist popularity and followers, and we save in the pop_follower.csv
+
 3.run read.Json.py to get each track's audio analysis, and we save all data into Data_Json folder.
