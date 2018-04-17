@@ -36,4 +36,4 @@ you should run getdata.py with the data1.csv to get 100000 songs rank in billboa
 
 3.run read.Json.py to get each track's audio analysis, and we save all data into Data_Json folder.
 
-### Use MYSQL to combine all these data into one csv file which we saved as Full_data.csv
+Use MYSQL to combine all these data into one csv file which we saved as Full_data.csv
