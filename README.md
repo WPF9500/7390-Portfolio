@@ -25,3 +25,7 @@ you can see all documents at[Allen Guo](https://github.com/guoguo12/billboard-ch
 pip install --ignore-installed --upgrade tensorflow-gpu 
 ```
 you must install GPU version of TensorFlow,and all the documents are at[Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
+
+### Get Billboad Chart by using Billboard API
+you should run getdata.py with the data1.csv to get 100000 songs rank in billboard chart
+
