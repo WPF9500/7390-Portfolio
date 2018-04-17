@@ -10,4 +10,4 @@ You should install Spotipy, billboard api , and Tensorflow
 ```bash
 python setup.py install
 ```
-Spotipy's full documentation is online at [Spotipy Documentation](http://spotipy.readthedocs.org/).
+You can see this api at [Spotipy github](https://github.com/plamere/spotipy).
