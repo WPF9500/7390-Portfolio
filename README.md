@@ -5,7 +5,7 @@ The Portfolio of INFO7390
 ## Getting Start
 
 ### Prerequisites
-You should install Spotipy, billboard api , and Tensorflow
+You should install Spotipy, billboard api , and Tensorflow and download the dataset on(https://drive.google.com/file/d/1RXsMtwsQRs_kPpgHB2uxJzspAhTPcPx8/view?usp=sharing)
 
 ### Installation
 1.spotipy api
