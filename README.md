@@ -39,4 +39,4 @@ you should run getdata.py with the data1.csv to get 100000 songs rank in billboa
 Use Mysql to combine all these data into one csv file which we saved as Full_data.csv
 
 ### License
-This project is licensed under the MIT License - see the LICENSE.md(https://github.com/WPF9500/7390-Portfolio/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/WPF9500/7390-Portfolio/blob/master/LICENSE) file for details
