@@ -40,4 +40,5 @@ Use Mysql to combine all these data into one csv file which we saved as Full_dat
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/WPF9500/7390-Portfolio/blob/master/LICENSE) file for details
+
 The text in the document by <Penffei Wang> is licensed under CC BY 3.0 https://creativecommons.org/licenses/by/3.0/us/
