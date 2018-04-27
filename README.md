@@ -1,10 +1,21 @@
 # Billboard Chart Prediction
 The Portfolio of INFO7390
 ## Introduction
-
+The Billboard charts tabulate the relative weekly popularity of singles or albums in the United States and
+elsewhere. It is significant to music producers, singers as well as the users.
+First, our project will gather the raw datasets which includes the weekly Billboard 100 hot chart ranges from
+1998-2018. Second, applying linear regression model to predict the peak rank of each track by using track’s
+audio features and artist social influence. Third, applying logistic regression model to predict whether the song’s
+peak rank will be higher than 30 or not. The accuracy of logistic regression model is 68%.Furthermore, the
+convolution neural network model will be implemented by several steps. The CNN model includes two
+convolution layers and two max-pooling layer, and the accuracy improves up to 72.2%. After the
+hyperparameter adjustment and model optimization, the accuracy of predicting whether the song will rank
+higher than 30 or not increases. Besides, the Long Short-Term Memory Network is applied to predict the time
+span of the songs’ on top 30 chart. The accuracy is 68.8%.
 ## Getting Start
 
 ### Prerequisites
+We use anaconda3.
 You should install Spotipy, billboard api , and Tensorflow and download the dataset on(https://drive.google.com/file/d/1RXsMtwsQRs_kPpgHB2uxJzspAhTPcPx8/view?usp=sharing)
 
 ### Installation
