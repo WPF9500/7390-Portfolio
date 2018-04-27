@@ -45,9 +45,13 @@ you should run getdata.py with the data1.csv to get 100000 songs rank in billboa
 
 2.run aa_append_artists.py to get each artist popularity and followers, and we save in the pop_follower.csv
 
-3.run read.Json.py to get each track's audio analysis, and we save all data into Data_Json folder.
-
 Use Mysql to combine all these data into one csv file which we saved as Full_data.csv
+
+```bash
+select billboard_track.id,new_data_csv not_null.id, rank, not_null.hit, not_null.title, not_null.artist, not_null.artist_popularity, not_null.followers, not_null.popularity,
+not_null.danceability, not_null.energy, not_null.key, not_null.loudness, not_null.mode, not_null.speechiness, not_null.acousticness, not_null.instrumentalness,
+not_null.liveness, not_null.valence, not_null.tempo from not_null inner join pop on not_null.artist = pop.artist and not_null.title =pop.title
+```
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/WPF9500/7390-Portfolio/blob/master/LICENSE) file for details
